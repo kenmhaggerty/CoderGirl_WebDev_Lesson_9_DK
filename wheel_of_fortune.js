@@ -16,7 +16,7 @@ var isGuessingLetter = true; // set to false to guess solution
 // If they are guessing a letter, set the letter that they are
 // guessing.
 
-var letter = 'A'; // UPPERCASE
+var letter = 'Y'; // UPPERCASE
 var guess = 'YAY';
 // SCRIPT ////////////////////////////////////////////////////////////
 
@@ -29,7 +29,7 @@ if(isGuessingLetter){
 		console.log("You got a letter!");
 		console.log("Y_Y"); 	
 	} else {
-	    console.log("Sorry, no" + letter + "!");
+	    console.log("Sorry, no " + letter + "!");
 	}	
 } else {
 	if(guess===word){
